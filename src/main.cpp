@@ -11,10 +11,9 @@
 #include <pulse.h>    // classe du lecteur de pools 
 
 
-const char* ssid = "Rogers1542";
-const char* password = "Daniel19";
+#include<wificonn.h>
 
-#define NumSerie 0x010001
+
 
   // Establish a connection to the PostgreSQL database
     PGconn* connection = PQconnectdb("dbname=dvdrental user=postgres password=admin host=192.168.0.36 port=5432");
